@@ -1,0 +1,72 @@
+{
+	"Camso_Transmission_52d28": {
+		"information":{
+			"authors":"Camshaft Software",
+			"name":"No Turb 3-Speed Automatic Transmission",
+			"value": 1100
+		},
+		"slotType" : "Camso_Transmission",
+		"slots": [
+			["type", "default", "description"],
+			["Camso_TransferCase", "Camso_TransferCase_AWD_52d28", "Drive Type"],
+			
+		],
+		
+		"variables": [
+			["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+
+			["$gear_R_52d28", "range", ":1", "Gearing", 2.98, 0.1, 17, "Gear R", "Gear ratio", {"subCategory": "Transmission", "stepDis": 0.01}],
+			["$gear_1_52d28", "range", ":1", "Gearing", 2.84, 0.1, 17, "Gear 1", "Gear ratio", {"subCategory": "Transmission", "stepDis": 0.01}],
+			["$gear_2_52d28", "range", ":1", "Gearing", 1.34, 0.1, 17, "Gear 2", "Gear ratio", {"subCategory": "Transmission", "stepDis": 0.01}],
+			["$gear_3_52d28", "range", ":1", "Gearing", 0.75, 0.1, 17, "Gear 3", "Gear ratio", {"subCategory": "Transmission", "stepDis": 0.01}]
+		],
+
+		"controller": [
+			["fileName"],
+			
+		],
+		"gearbox": {
+			//https://wiki.beamng.com/AutomaticGearbox
+			"gearChangeTime": 1.8586382789612, //Seconds to do the shift (forced minimum, vehicleController can make it longer)
+			"shiftEfficiency": 0.35, //Proportion of torque wasted during shifting
+			"gearRatios": ["$=-$gear_R_52d28", 0, "$gear_1_52d28", "$gear_2_52d28", "$gear_3_52d28"],
+			"friction": 24.087802823303, //Constant friction torque on input shaft
+			"oneWayViscousCoef": 25, //One way clutch - hill holding strength
+			"parkLockTorque": 1000, //Maximum holding torque of park mode
+			"gearboxNode:": ["engine0"] //node used to play gear damage sound
+		},
+		"torqueConverter": {
+			//https://wiki.beamng.com/TorqueConverter
+			"converterDiameter": 0.20024448732678, //Affects stall RPM and torque carrying ability
+			"converterStiffness":8, //Affects tightness of converter around cruising speeds
+			"couplingAVRatio": 0.84, //Speed ratio where the torque multiplication reaches 1:1
+			"stallTorqueRatio": 2.5 //Maximum torque multiplication value (occurs at stall)
+		},
+
+		"vehicleController": {
+			//fancy new auto gearbox or dct useful values
+			"shiftDownRPMOffsetCoef":1.2,
+			"automaticModes": "PRND21", //Add or remove P,R,N,D,S,M,L,1,2 from the string to customize modes
+			"transmissionGearChangeDelay": 2, //Seconds before it will allow to shift again
+			"gearboxDecisionSmoothingUp": 2, //Multiplier for how fast it reacts to throttle increase for deciding to shift
+			"gearboxDecisionSmoothingDown": 2, //Multiplier for how fast it reacts to throttle decrease for deciding to shift
+
+			"useSmartAggressionCalculation": false, //Smart gearbox logic - has a bunch of logic to determine aggression from user input and vehicle sensors
+			"aggressionHoldOffThrottleDelay": 2, //How many seconds it will resist an upshift while engine braking after full throttle
+			"aggressionSmoothingUp": 2, //Multiplier for how fast aggression is allowed to increase
+			"aggressionSmoothingDown": 0.25, //Multiplier for how fast its allowed to decrease
+
+			"maxGearChangeTime": 0, //Shift time (s) depends on aggression calculation
+			"minGearChangeTime": 0,
+
+			"calculateOptimalLoadShiftPoints": true //The high shift points ones can be auto calculated
+		},
+
+		"powertrain" : [
+			["type", "name", "inputName", "inputIndex"],
+		["torqueConverter", "torqueConverter", "mainEngine", 1],
+		["automaticGearbox", "gearbox", "torqueConverter", 1]
+
+		]
+	}
+}

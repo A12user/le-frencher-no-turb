@@ -1,0 +1,29 @@
+{
+	"Camso_suspensionmesh_R_52d28":
+	{
+	    "information":{
+	        "authors":"Camshaft Software",
+	        "name":"No Turb Rear Suspension Meshes"
+	    },
+	    "slotType" : "Camso_suspensionmesh_R",
+		"flexbodies": [
+	        ["mesh", "[group]:", "nonFlexMaterials"],
+	        ["52d28_suspension_r11", ["susp_R"], [], {"pos":{"x":-1.46196e-07, "y":0.304822, "z":0.793181}, "rot":{"x":0.0166536, "y":-1.36604e-05, "z":-180}, "scale":{"x":1, "y":1, "z":1}}],
+	        ["52d28_suspensionm_r15", ["susp_R"], [], {"pos":{"x":1.46196e-07, "y":0.304822, "z":0.793181}, "rot":{"x":0.0166536, "y":-1.36604e-05, "z":-180}, "scale":{"x":1, "y":1, "z":1}}],
+		]
+	},
+
+	"Camso_brakemeshes_rear_52d28":
+	{
+	    "information":{
+	        "authors":"Camshaft Software",
+	        "name":"No Turb Rear Brake Meshes"
+	    },
+	    "slotType" : "Camso_brakemeshes_rear",
+		"flexbodies": [
+	        ["mesh", "[group]:", "nonFlexMaterials"],
+	        ["52d28_brakedisc_r12", ["wheel_RL"], [], {"pos":{"x":0.710446, "y":1.35482, "z":0.792796}, "rot":{"x":0.0166507, "y":-1.00001, "z":180}, "scale":{"x":1.61245, "y":2.6, "z":2.6}}],
+	        ["52d28_brakedisc_r12", ["wheel_RR"], [], {"pos":{"x":-0.710446, "y":1.35482, "z":0.792796}, "rot":{"x":-0.0166507, "y":1.00001, "z":360}, "scale":{"x":1.61245, "y":2.6, "z":2.6}}],
+		]
+	}
+}

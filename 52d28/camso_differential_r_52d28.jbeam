@@ -1,0 +1,25 @@
+{
+	"Camso_differential_rear_52d28": {
+		"information":{
+			"name":"No Turb Open Rear Differential",
+			"value":500
+		},
+		"slotType" : "Camso_differential_rear",
+		"slots": [
+			["type", "default", "description"],
+			["Camso_halfshafts_rear","Camso_halfshafts_rear","Rear Halfshafts"],
+			["Camso_finaldrive_rear","Camso_finaldrive_rear_5.47","Rear Final Drive", {"coreSlot":true}]
+		],
+		"controller": [
+			["fileName"],
+			
+		],
+		"powertrain" : [
+			["type", "name", "inputName", "inputIndex"],
+		//https://wiki.beamng.com/Differential
+		["differential", "rearDiff", "rearDriveShaft", 1, {"diffType": "open", "uiName": "Rear Differential", "defaultVirtualInertia": 0.25, "friction": 3.4798368354527}],
+
+
+		]
+	}
+}

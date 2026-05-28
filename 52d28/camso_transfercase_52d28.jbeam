@@ -1,0 +1,47 @@
+{
+	"Camso_TransferCase_AWD_52d28": {
+		"information":{
+			"name":"No Turb All Wheel Drive",
+			"value":1000
+		},
+		"slots": [
+			["type", "default", "description"],
+			["Camso_differential_center", "Camso_differential_center_52d28", "Center Coupling", {"coreSlot":true}]
+		],
+		"slotType" : "Camso_TransferCase"
+	},
+
+	"Camso_differential_center_52d28": {
+		"information":{
+			"name":"No Turb Helical Center Differential",
+			"value":300
+		},
+		"slotType" : "Camso_differential_center",
+		"slots": [
+			["type", "default", "description"],
+			["Camso_driveshaft_front", "Camso_driveshaft_front", "Front Driveshaft"],
+			["Camso_driveshaft_rear", "Camso_driveshaft_rear", "Rear Driveshaft"]
+		],
+		"variables": [
+			["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+			//["$torquesplit", "range", "", "Gearing", 0.35, 0, 1, "Torque Split", "Power to Rear",{"subCategory": "Transfer Case", "stepDis": 0.01, "minDis":0,"maxDis":100}]
+			["$torquesplit", "range", "", "Gearing", 0.35, 0, 1, "Torque Split", "Power to Rear",{"subCategory": "Transfer Case", "stepDis": 0.01, "minDis":0,"maxDis":100}]
+
+
+		],
+		"controller": [
+			["fileName"],
+			
+		],
+		"powertrain" : [
+			["type", "name", "inputName", "inputIndex"],
+		//https://wiki.beamng.com/Differential
+		["differential", "transferCase", "gearbox", 1, {"diffType": "lsd", "lsdLockCoef": 0.40, "lsdRevLockCoef": 0.40, "lsdPreload": 10.00, "uiName": "Center Differential", "defaultVirtualInertia":0.25, "friction": 3.4798368354527}],
+
+
+		],
+		"transferCase":{
+			"diffTorqueSplit": "$=$torquesplit or 0.35"
+		}
+	}
+}
