@@ -1,0 +1,24 @@
+{
+	"Configuration": "No Turb",
+	"Description": "",
+	"Config Type": "Factory",
+	"Weight": 1059,
+	"Power": 108,
+	"Torque": 163,
+	"PowerPeakRPM": 5700,
+	"TorquePeakRPM": 3500,
+	"Weight/Power": 9.76177,
+	"0-100 km/h": 11.8,
+	"Top Speed": 48.7,
+	"Years": {
+		"min": 1982,
+		"max": 1982
+	},
+	"Drivetrain": "AWD",
+	"Transmission": "Automatic",
+	"Propulsion": "ICE",
+	"Fuel Type": "Gasoline",
+	"Induction Type": "NA",
+	"Value": 16122,
+	"defaultPaintName1": "Default1"
+}

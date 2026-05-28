@@ -1,0 +1,1371 @@
+{
+	"material_0_m_carpaint_52d28": {
+		"name": "material_0_m_carpaint_52d28",
+		"class": "Material",
+		"mapTo": "material_0_m_carpaint_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"clearCoatFactor": 1,
+				"clearCoatRoughnessFactor": 1,
+				"instanceDiffuse": true,
+				"colorPaletteMap": "camso_col_0xffff0000.dds",
+				"roughnessFactor": 1,
+				"metallicFactor": 1,
+				"diffuseColor": [ 1, 1, 1, 1 ]
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 255,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_1_mp_plastic_inst_52d28": {
+		"name": "material_1_mp_plastic_inst_52d28",
+		"class": "Material",
+		"mapTo": "material_1_mp_plastic_inst_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.0509804, 0.0509804, 0.0509804, 1 ],
+				"roughnessFactor": 0.4,
+				"metallicFactor": 0
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_2_carwindows_transparent_52d28": {
+		"name": "material_2_carwindows_transparent_52d28",
+		"class": "Material",
+		"mapTo": "material_2_carwindows_transparent_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"opacityFactor": 0.898039,
+				"diffuseColor": [ 0, 0.0627451, 0.0509804, 0.898039 ],
+				"roughnessFactor": 0.02,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 1,
+		"alphaTest": true,
+		"translucent": true,
+		"translucentBlendOp": "PreMulAlpha",
+		"translucentZWrite": false,
+		"castShadows": false,
+		"translucentRecvShadows": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_3_chassis_steel_52d28": {
+		"name": "material_3_chassis_steel_52d28",
+		"class": "Material",
+		"mapTo": "material_3_chassis_steel_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.560784, 0.560784, 0.560784, 1 ],
+				"roughnessFactor": 0.2,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_4_m_seamsealer_52d28": {
+		"name": "material_4_m_seamsealer_52d28",
+		"class": "Material",
+		"mapTo": "material_4_m_seamsealer_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.756863, 0.729412, 0.560784, 0 ],
+				"roughnessFactor": 0.22,
+				"metallicFactor": 0
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_5_m_blackrubber_52d28": {
+		"name": "material_5_m_blackrubber_52d28",
+		"class": "Material",
+		"mapTo": "material_5_m_blackrubber_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.0470588, 0.0470588, 0.0470588, 0 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 0
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_6_mi_rubber_tyre_52d28": {
+		"name": "material_6_mi_rubber_tyre_52d28",
+		"class": "Material",
+		"mapTo": "material_6_mi_rubber_tyre_52d28",
+		"Stages": [
+			{
+				"normalMap": "52d28_tyrenormal_0.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.12549, 0.121569, 0.121569, 1 ],
+				"roughnessFactor": 0.55,
+				"metallicFactor": 0,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_7_chromefixture_52d28": {
+		"name": "material_7_chromefixture_52d28",
+		"class": "Material",
+		"mapTo": "material_7_chromefixture_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_8_mi_brushedsteel_52d28": {
+		"name": "material_8_mi_brushedsteel_52d28",
+		"class": "Material",
+		"mapTo": "material_8_mi_brushedsteel_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 0,
+				"roughnessMap": "camso_t_brushedmetal_m_rbgmaskg.dds",
+				"diffuseColor": [ 0.74902, 0.756863, 0.74902, 1 ],
+				"roughnessFactor": -0.125,
+				"metallicFactor": 1,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_9_mi_castalloy_morphable_52d28": {
+		"name": "material_9_mi_castalloy_morphable_52d28",
+		"class": "Material",
+		"mapTo": "material_9_mi_castalloy_morphable_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.596078, 0.596078, 0.596078, 1 ],
+				"roughnessFactor": 0.9,
+				"metallicFactor": 0.4
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_10_mi_suspensionpaintyellow_52d28": {
+		"name": "material_10_mi_suspensionpaintyellow_52d28",
+		"class": "Material",
+		"mapTo": "material_10_mi_suspensionpaintyellow_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.662745, 0.568627, 0.113725, 0 ],
+				"roughnessFactor": 0.3,
+				"metallicFactor": 0
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_11_mi_suspensionpaintred_52d28": {
+		"name": "material_11_mi_suspensionpaintred_52d28",
+		"class": "Material",
+		"mapTo": "material_11_mi_suspensionpaintred_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.517647, 0, 0, 0 ],
+				"roughnessFactor": 0.3,
+				"metallicFactor": 0
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_12_mi_bolt_morphable_52d28": {
+		"name": "material_12_mi_bolt_morphable_52d28",
+		"class": "Material",
+		"mapTo": "material_12_mi_bolt_morphable_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.709804, 0.670588, 0.611765, 1 ],
+				"roughnessFactor": 0.4,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_13_mi_machinedmetal_morphable_52d28": {
+		"name": "material_13_mi_machinedmetal_morphable_52d28",
+		"class": "Material",
+		"mapTo": "material_13_mi_machinedmetal_morphable_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_t_normal_8k_slnobhpc.dds",
+				"normalMapStrength": 0.199048,
+				"diffuseMap": "camso_t_default_macrovariation_lerpg_0xFFCECEDB_0xFFD0C9CE.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0.247166,
+				"metallicFactor": 1,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_14_m_machinedmetal_52d28": {
+		"name": "material_14_m_machinedmetal_52d28",
+		"class": "Material",
+		"mapTo": "material_14_m_machinedmetal_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.654902, 0.654902, 0.654902, 1 ],
+				"roughnessFactor": 0.2,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_15_m_castalloy_inst_2_52d28": {
+		"name": "material_15_m_castalloy_inst_2_52d28",
+		"class": "Material",
+		"mapTo": "material_15_m_castalloy_inst_2_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.690196, 0.690196, 0.690196, 1 ],
+				"roughnessFactor": 0.9,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_16_m_bolt_52d28": {
+		"name": "material_16_m_bolt_52d28",
+		"class": "Material",
+		"mapTo": "material_16_m_bolt_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.709804, 0.670588, 0.611765, 1 ],
+				"roughnessFactor": 0.4,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_17_m_castiron_forged_52d28": {
+		"name": "material_17_m_castiron_forged_52d28",
+		"class": "Material",
+		"mapTo": "material_17_m_castiron_forged_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.372549, 0.372549, 0.372549, 1 ],
+				"roughnessFactor": 0.9,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_18_mi_rubber_tyre_52d28": {
+		"name": "material_18_mi_rubber_tyre_52d28",
+		"class": "Material",
+		"mapTo": "material_18_mi_rubber_tyre_52d28",
+		"Stages": [
+			{
+				"normalMap": "52d28_tyrenormal_1.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.12549, 0.121569, 0.121569, 1 ],
+				"roughnessFactor": 0.55,
+				"metallicFactor": 0,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_19_mi_suspensionpaintblack_52d28": {
+		"name": "material_19_mi_suspensionpaintblack_52d28",
+		"class": "Material",
+		"mapTo": "material_19_mi_suspensionpaintblack_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0, 0, 0, 0 ],
+				"roughnessFactor": 0.3,
+				"metallicFactor": 0
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_20_m_castalloy_inst_52d28": {
+		"name": "material_20_m_castalloy_inst_52d28",
+		"class": "Material",
+		"mapTo": "material_20_m_castalloy_inst_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.866667, 0.878431, 0.905882, 1 ],
+				"roughnessFactor": 0.9,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_21_mi_metal_unpaintedalloyrocker_52d28": {
+		"name": "material_21_mi_metal_unpaintedalloyrocker_52d28",
+		"class": "Material",
+		"mapTo": "material_21_mi_metal_unpaintedalloyrocker_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 0,
+				"diffuseMap": "camso_t_default_macrovariation_lerpg_0xFF9A9A9F_0xFF959295.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0.52,
+				"metallicFactor": 1,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_22_m_castalloy_inst_52d28": {
+		"name": "material_22_m_castalloy_inst_52d28",
+		"class": "Material",
+		"mapTo": "material_22_m_castalloy_inst_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.866667, 0.878431, 0.905882, 1 ],
+				"roughnessFactor": 0.9,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_23_mi_fuelsystem_su_carb_v2_52d28": {
+		"name": "material_23_mi_fuelsystem_su_carb_v2_52d28",
+		"class": "Material",
+		"mapTo": "material_23_mi_fuelsystem_su_carb_v2_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_su_carb_low_mi_su_carb_normal.dds",
+				"normalMapStrength": 1,
+				"diffuseMap": "camso_su_carb_low_mi_su_carb_basecolor.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 1,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_24_mi_fasteners_cadmium_52d28": {
+		"name": "material_24_mi_fasteners_cadmium_52d28",
+		"class": "Material",
+		"mapTo": "material_24_mi_fasteners_cadmium_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_fasteners3_low_material_normal.dds",
+				"normalMapStrength": 1,
+				"diffuseMap": "camso_fasteners3_low_material_basecolor.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 1,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_25_mi_fasteners_rough_steel_52d28": {
+		"name": "material_25_mi_fasteners_rough_steel_52d28",
+		"class": "Material",
+		"mapTo": "material_25_mi_fasteners_rough_steel_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_fasteners3_low_material_normal.dds",
+				"normalMapStrength": 1,
+				"diffuseMap": "camso_fasteners_cadmium_material_basecolor.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 1,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_26_mi_smoothblackplastic_inst_52d28": {
+		"name": "material_26_mi_smoothblackplastic_inst_52d28",
+		"class": "Material",
+		"mapTo": "material_26_mi_smoothblackplastic_inst_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.0509804, 0.0509804, 0.0509804, 1 ],
+				"roughnessFactor": 0.4,
+				"metallicFactor": 0
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_27_m_filter_52d28": {
+		"name": "material_27_m_filter_52d28",
+		"class": "Material",
+		"mapTo": "material_27_m_filter_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.380392, 0, 0.0117647, 0 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 0
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_28_mi_belt_ribs_52d28": {
+		"name": "material_28_mi_belt_ribs_52d28",
+		"class": "Material",
+		"mapTo": "material_28_mi_belt_ribs_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseMap": "camso_belt_unwrap_test.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 0,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_29_mi_pulley_and_alternator_lod2_52d28": {
+		"name": "material_29_mi_pulley_and_alternator_lod2_52d28",
+		"class": "Material",
+		"mapTo": "material_29_mi_pulley_and_alternator_lod2_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_full_alt_baker_low_bake1_pbr_stoa_normal.dds",
+				"normalMapStrength": 1,
+				"diffuseMap": "camso_full_alt_baker_low_bake1_pbr_stoa_diffuse.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 1,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_30_mi_alternator_brackets_52d28": {
+		"name": "material_30_mi_alternator_brackets_52d28",
+		"class": "Material",
+		"mapTo": "material_30_mi_alternator_brackets_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_brackets_low_m_alternator_normal.dds",
+				"normalMapStrength": 1,
+				"diffuseMap": "camso_brackets_low_m_alternator_brackets_basecolor.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 1,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_31_m_belt_52d28": {
+		"name": "material_31_m_belt_52d28",
+		"class": "Material",
+		"mapTo": "material_31_m_belt_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseMap": "camso_belt_unwrap_test.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 0,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_32_mi_castironexhausts_52d28": {
+		"name": "material_32_mi_castironexhausts_52d28",
+		"class": "Material",
+		"mapTo": "material_32_mi_castironexhausts_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.164706, 0.172549, 0.172549, 1 ],
+				"roughnessFactor": 0.9,
+				"metallicFactor": 0.2
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_33_m_exhaust_01_52d28": {
+		"name": "material_33_m_exhaust_01_52d28",
+		"class": "Material",
+		"mapTo": "material_33_m_exhaust_01_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_34_m_chrome_52d28": {
+		"name": "material_34_m_chrome_52d28",
+		"class": "Material",
+		"mapTo": "material_34_m_chrome_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.913725, 0.984314, 1, 1 ],
+				"roughnessFactor": 0.19,
+				"metallicFactor": 0
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_35_mi_castironglowable_turbo_52d28": {
+		"name": "material_35_mi_castironglowable_turbo_52d28",
+		"class": "Material",
+		"mapTo": "material_35_mi_castironglowable_turbo_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.192157, 0.180392, 0.152941, 1 ],
+				"roughnessFactor": 0.9,
+				"metallicFactor": 0.2
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_36_m_blackhole_52d28": {
+		"name": "material_36_m_blackhole_52d28",
+		"class": "Material",
+		"mapTo": "material_36_m_blackhole_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0, 0, 0, 0 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 0
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_37_mi_castironblocksandheads_52d28": {
+		"name": "material_37_mi_castironblocksandheads_52d28",
+		"class": "Material",
+		"mapTo": "material_37_mi_castironblocksandheads_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.321569, 0.305882, 0.298039, 1 ],
+				"roughnessFactor": 0.9,
+				"metallicFactor": 0.2
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_38_m_blackrubber_52d28": {
+		"name": "material_38_m_blackrubber_52d28",
+		"class": "Material",
+		"mapTo": "material_38_m_blackrubber_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.0470588, 0.0470588, 0.0470588, 0 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 0
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_39_mi_driveshaft_axle_hub_52d28": {
+		"name": "material_39_mi_driveshaft_axle_hub_52d28",
+		"class": "Material",
+		"mapTo": "material_39_mi_driveshaft_axle_hub_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_driveshaft_axleshaft_hub_low_mi_driveshaft_axle_hub_normal.dds",
+				"normalMapStrength": 1,
+				"diffuseMap": "camso_driveshaft_axleshaft_hub_low_mi_driveshaft_axle_hub_basecolor.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 1,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_40_m_forgedsteel_52d28": {
+		"name": "material_40_m_forgedsteel_52d28",
+		"class": "Material",
+		"mapTo": "material_40_m_forgedsteel_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.6, 0.6, 0.6, 1 ],
+				"roughnessFactor": 0.3,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_41_mi_differential_independent_2_0_2k_52d28": {
+		"name": "material_41_mi_differential_independent_2_0_2k_52d28",
+		"class": "Material",
+		"mapTo": "material_41_mi_differential_independent_2_0_2k_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_differential_independent_low_mi_differential_independent_normal.dds",
+				"normalMapStrength": 1,
+				"diffuseMap": "camso_differential_independent_low_mi_differential_independent_basecolo__.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 1,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_42_mi_fasteners_galvanized_52d28": {
+		"name": "material_42_mi_fasteners_galvanized_52d28",
+		"class": "Material",
+		"mapTo": "material_42_mi_fasteners_galvanized_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_fasteners3_low_material_normal.dds",
+				"normalMapStrength": 1,
+				"diffuseMap": "camso_fasteners_cadmium_material_basecolor.dds",
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 1,
+				"useAnisotropic": true
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"doubleSided": true,
+		"invertBackFaceNormals": true,
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_43_m_shinyexhaust_52d28": {
+		"name": "material_43_m_shinyexhaust_52d28",
+		"class": "Material",
+		"mapTo": "material_43_m_shinyexhaust_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 1, 1, 1, 1 ],
+				"roughnessFactor": 0,
+				"metallicFactor": 0.999
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	},
+	"material_44_m_exhaust_52d28": {
+		"name": "material_44_m_exhaust_52d28",
+		"class": "Material",
+		"mapTo": "material_44_m_exhaust_52d28",
+		"Stages": [
+			{
+				"normalMap": "camso_col_0xff8080ff.dds",
+				"normalMapStrength": 1,
+				"diffuseColor": [ 0.713725, 0.713725, 0.713725, 0 ],
+				"roughnessFactor": 0.29238,
+				"metallicFactor": 1
+			},
+			{
+			},
+			{
+			},
+			{
+			}
+		],
+		"alphaRef": 84,
+		"alphaTest": true,
+		"translucent": false,
+		"translucentBlendOp": "None",
+		"dynamicCubemap": true,
+		"activeLayers": 1,
+		"materialTag0": "beamng",
+		"order_simset": 0,
+		"version": 1.5
+	}
+}
